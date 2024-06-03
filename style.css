@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html, body{
+    min-height: 100vh;
+   
+    
+}
+
+header{
+    background-color: #F23005 ;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Galindo', 'Times New Roman', Times, serif;
+    font-size: 4.5vw;
+    text-shadow: 2px 2px 3px black;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+
+section{
+    padding-top:  10vh;
+    padding-bottom: 10vh;
+    line-height: 1.1em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+section > p{
+    padding: 10px;
+}
+
+section.normal{
+    padding: 10px;
+    background-color: white;
+    color:black;
+    text-align: justify;
+}
+
+section.imagem{
+    background-color:#02733E ;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.726);
+    background-attachment: fixed;
+  
+}
+
+
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 350px;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    text-align: justify;
+    padding-bottom: 10px;
+
+}
+
+section#img01{
+    background-image: url('imagens/south-park01.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: 20px;
+   
+}
+
+section#img02{
+    background-image: url('imagens/spsouth-park03.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 20px;
+}
+   
+#img02{
+    height: 230px;
+    background-color: #2E4988;
+}  
+
+
+footer{
+    background-color:#F2CB05 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
